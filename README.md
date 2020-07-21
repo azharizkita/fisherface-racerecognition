@@ -20,7 +20,7 @@ This program is meant to classify the race of facial images between asian and no
 * [Sklearn](https://pypi.org/project/scikit-learn/)
 
 ## How to use this?
-* You need to uncomment this once, feel free to recomment after you ran it once. This code supposed to preprocess the dataset then it puts the output into one database called '`dataset.npy`'.
-```python
-# readDataset(datasetName='fairface')
-```
+In order to use this program, you need to download the FairFace dataset.
+* run `preprocessing.py`
+* run `equalization.py`
+* run `main.py`
